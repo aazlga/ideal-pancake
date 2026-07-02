@@ -19,32 +19,37 @@
         header { text-align: center; margin-bottom: 25px; }
         h1 { margin: 0 0 8px 0; font-size: 32px; font-weight: 800; color: #ffffff; }
         .subtitle { color: var(--text-light); margin: 0; font-size: 14px; }
-      .day-picker { 
-    display: flex; 
-    gap: 8px; 
-    overflow-x: auto; 
-    padding-bottom: 15px; 
-    padding-right: 20px; 
-    margin-bottom: 25px; 
-    scrollbar-width: none; 
-    -webkit-overflow-scrolling: touch;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-}
-
-.day-btn { 
-    background: var(--card-bg); 
-    border: 1px solid var(--border); 
-    padding: 10px 20px; /* Increased padding */
-    flex: 0 0 auto;    /* Prevents the buttons from shrinking */
-    border-radius: 20px; 
-    font-weight: 600; 
-    font-size: 13px; 
-    cursor: pointer; 
-    color: var(--text-light); 
-    white-space: nowrap; 
-}
+        
+        /* Fixed CSS with correct selector and scrolling behavior */
+        .day-picker { 
+            display: flex; 
+            gap: 8px; 
+            overflow-x: auto; 
+            padding-bottom: 15px; 
+            padding-right: 20px; /* Prevents cutoff on the last button */
+            margin-bottom: 25px; 
+            scrollbar-width: none; 
+            -webkit-overflow-scrolling: touch;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+        }
+        
+        .day-btn { 
+            background: var(--card-bg); 
+            border: 1px solid var(--border); 
+            padding: 10px 20px; 
+            flex: 0 0 auto; /* Prevents buttons from shrinking */
+            text-align: center;
+            border-radius: 20px; 
+            font-weight: 600; 
+            font-size: 13px; 
+            cursor: pointer; 
+            color: var(--text-light); 
+            white-space: nowrap; 
+            transition: all 0.2s ease; 
+        }
         .day-btn.active { background: var(--primary); color: white; border-color: var(--primary); }
+        
         .deal-card { background: var(--card-bg); border-radius: 14px; padding: 20px; margin-bottom: 16px; border: 1px solid var(--border); }
         .card-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; }
         .pub-name { font-size: 19px; font-weight: 700; }
@@ -75,6 +80,7 @@
 </div>
 
 <script>
+    // Sunday is now the first item in the list
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     const localCairnsString = new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane", weekday: "long" });
     let selectedDay = localCairnsString;
@@ -124,23 +130,4 @@
                     <span style="font-size: 11px; color: var(--text-light); font-style: italic;">Updated: ${item["Last Updated"]}</span>
                 </div>
             `;
-            container.appendChild(card);
-        });
-    }
-
-    document.getElementById('liveDate').innerText = new Date().toLocaleDateString('en-AU', { timeZone: "Australia/Brisbane", dateStyle: 'full' });
-    
-    // Change this to 'deals.json' if the file is in your local repository
-    fetch('deals.json') 
-        .then(res => res.json())
-        .then(data => {
-            masterDealsArray = data;
-            renderDeals();
-        })
-        .catch(err => {
-            console.error(err);
-            document.getElementById('dealsContainer').innerHTML = `<div class="error-msg">Failed to load deals. Check your file path!</div>`;
-        });
-</script>
-</body>
-</html>
+            container
