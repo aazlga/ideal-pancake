@@ -19,7 +19,19 @@
         header { text-align: center; margin-bottom: 25px; }
         h1 { margin: 0 0 8px 0; font-size: 32px; font-weight: 800; color: #ffffff; }
         .subtitle { color: var(--text-light); margin: 0; font-size: 14px; }
-        .day-picker { display: flex; overflow-x: auto; padding-bottom: 12px; margin-bottom: 25px; scrollbar-width: none; }
+        .day-picker .day-picker { 
+    display: flex; 
+    gap: 8px; 
+    overflow-x: auto; 
+    padding-bottom: 15px; 
+    /* Add padding-right to ensure the last button isn't clipped */
+    padding-right: 20px; 
+    margin-bottom: 25px; 
+    scrollbar-width: none; 
+    -webkit-overflow-scrolling: touch;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
         .day-btn { background: var(--card-bg); border: 1px solid var(--border); padding: 10px 15px; border-radius: 20px; font-weight: 600; font-size: 13px; cursor: pointer; color: var(--text-light); white-space: nowrap; }
         .day-btn.active { background: var(--primary); color: white; border-color: var(--primary); }
         .deal-card { background: var(--card-bg); border-radius: 14px; padding: 20px; margin-bottom: 16px; border: 1px solid var(--border); }
