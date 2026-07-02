@@ -102,3 +102,23 @@
                     <a href="${item.Url}" target="_blank" class="menu-link">View Menu ↗</a>
                     <span style="font-size: 11px; color: var(--text-light);">Updated: ${item["Last Updated"]}</span>
                 </div>
+            `;
+            container.appendChild(card);
+        });
+    }
+
+    document.getElementById('liveDate').innerText = new Date().toLocaleDateString('en-AU', { timeZone: "Australia/Brisbane", dateStyle: 'full' });
+    
+    fetch('deals.json') 
+        .then(res => res.json())
+        .then(data => {
+            masterDealsArray = data;
+            renderDeals();
+        })
+        .catch(err => {
+            console.error(err);
+            document.getElementById('dealsContainer').innerHTML = "Failed to load deals.";
+        });
+</script>
+</body>
+</html>
