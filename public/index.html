@@ -52,10 +52,31 @@
     border-color: #ff4757; 
 }
         
-        .deal-card { background: var(--card-bg); border-radius: 14px; padding: 20px; margin-bottom: 16px; border: 1px solid var(--border); }
-        .card-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; }
+       .deal-card { 
+            background: var(--card-bg); 
+            border-radius: 14px; 
+            padding: 20px; 
+            margin-bottom: 16px; 
+            border: 1px solid var(--border);
+            box-sizing: border-box; /* Ensures width: 100% is respected */
+            width: 100%;
+        }
+      .card-header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; /* This centers items vertically */
+            margin-bottom: 12px; 
+        }
         .pub-name { font-size: 19px; font-weight: 700; }
-        .pub-location { font-size: 11px; font-weight: 700; color: var(--accent); background: rgba(255, 165, 2, 0.1); padding: 4px 10px; border-radius: 12px; }
+      .pub-location { 
+            font-size: 11px; 
+            font-weight: 700; 
+            color: var(--accent); 
+            background: rgba(255, 165, 2, 0.1); 
+            padding: 4px 10px; 
+            border-radius: 12px;
+            white-space: nowrap; /* Prevents the badge from wrapping */
+        }
         .deal-text { font-size: 15px; margin-bottom: 18px; }
         .menu-link { display: inline-flex; background: var(--border); color: #ffffff; text-decoration: none; font-size: 13px; font-weight: 700; padding: 8px 16px; border-radius: 8px; }
         footer { text-align: center; margin-top: 60px; font-size: 12px; color: var(--text-light); border-top: 1px solid var(--border); padding-top: 20px; }
