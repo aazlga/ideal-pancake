@@ -20,7 +20,7 @@
         h1 { margin: 0 0 8px 0; font-size: 32px; font-weight: 800; color: #ffffff; }
         .subtitle { color: var(--text-light); margin: 0; font-size: 14px; }
         
-        /* Fixed scrollable day-picker */
+        /* Updated scrollable day-picker with Sunday at the start */
         .day-picker { 
             display: flex; 
             gap: 8px; 
@@ -30,6 +30,7 @@
             scrollbar-width: none; 
             -webkit-overflow-scrolling: touch;
             flex-wrap: nowrap;
+            justify-content: flex-start; 
         }
         .day-btn { 
             background: var(--card-bg); 
@@ -77,7 +78,8 @@
 </div>
 
 <script>
-    const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+    // Sunday is now first in the array
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     const localCairnsString = new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane", weekday: "long" });
     let selectedDay = localCairnsString;
     let masterDealsArray = [];
@@ -132,17 +134,8 @@
 
     document.getElementById('liveDate').innerText = new Date().toLocaleDateString('en-AU', { timeZone: "Australia/Brisbane", dateStyle: 'full' });
     
-    // Ensure this matches the exact filename in your repo
+    // Make sure 'deals.json' is in the same folder as this index.html
     fetch('deals.json') 
         .then(res => res.json())
         .then(data => {
-            masterDealsArray = data;
-            renderDeals();
-        })
-        .catch(err => {
-            console.error(err);
-            document.getElementById('dealsContainer').innerHTML = `<div class="error-msg">Failed to load deals. Check your file path!</div>`;
-        });
-</script>
-</body>
-</html>
+            masterDealsArray
