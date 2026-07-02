@@ -19,35 +19,9 @@
         header { text-align: center; margin-bottom: 25px; }
         h1 { margin: 0 0 8px 0; font-size: 32px; font-weight: 800; color: #ffffff; }
         .subtitle { color: var(--text-light); margin: 0; font-size: 14px; }
-        
-        /* Updated scrollable day-picker with Sunday at the start */
-        .day-picker { 
-            display: flex; 
-            gap: 8px; 
-            overflow-x: auto; 
-            padding-bottom: 15px; 
-            margin-bottom: 25px; 
-            scrollbar-width: none; 
-            -webkit-overflow-scrolling: touch;
-            flex-wrap: nowrap;
-            justify-content: flex-start; 
-        }
-        .day-btn { 
-            background: var(--card-bg); 
-            border: 1px solid var(--border); 
-            padding: 10px 20px; 
-            flex: 0 0 auto; 
-            text-align: center;
-            border-radius: 20px; 
-            font-weight: 600; 
-            font-size: 13px; 
-            cursor: pointer; 
-            color: var(--text-light); 
-            white-space: nowrap; 
-            transition: all 0.2s ease; 
-        }
+        .day-picker { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 12px; margin-bottom: 25px; scrollbar-width: none; }
+        .day-btn { background: var(--card-bg); border: 1px solid var(--border); padding: 10px 15px; border-radius: 20px; font-weight: 600; font-size: 13px; cursor: pointer; color: var(--text-light); white-space: nowrap; }
         .day-btn.active { background: var(--primary); color: white; border-color: var(--primary); }
-        
         .deal-card { background: var(--card-bg); border-radius: 14px; padding: 20px; margin-bottom: 16px; border: 1px solid var(--border); }
         .card-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; }
         .pub-name { font-size: 19px; font-weight: 700; }
@@ -78,8 +52,7 @@
 </div>
 
 <script>
-    // Sunday is now first in the array
-    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
     const localCairnsString = new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane", weekday: "long" });
     let selectedDay = localCairnsString;
     let masterDealsArray = [];
@@ -134,8 +107,17 @@
 
     document.getElementById('liveDate').innerText = new Date().toLocaleDateString('en-AU', { timeZone: "Australia/Brisbane", dateStyle: 'full' });
     
-    // Make sure 'deals.json' is in the same folder as this index.html
+    // Change this to 'deals.json' if the file is in your local repository
     fetch('deals.json') 
         .then(res => res.json())
         .then(data => {
-            masterDealsArray
+            masterDealsArray = data;
+            renderDeals();
+        })
+        .catch(err => {
+            console.error(err);
+            document.getElementById('dealsContainer').innerHTML = `<div class="error-msg">Failed to load deals. Check your file path!</div>`;
+        });
+</script>
+</body>
+</html>
