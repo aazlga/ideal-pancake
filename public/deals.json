@@ -2,6 +2,60 @@
     {
         "Pub Name": "Barron River Hotel",
         "Location": "Stratford",
+        "Day": "Monday",
+        "Deal": "Tradie Lunch",
+        "Price": "$20",
+        "Url": "https://barronriverhotel.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Barron River Hotel",
+        "Location": "Stratford",
+        "Day": "Tuesday",
+        "Deal": "Tradie Lunch",
+        "Price": "$20",
+        "Url": "https://barronriverhotel.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Barron River Hotel",
+        "Location": "Stratford",
+        "Day": "Wednesday",
+        "Deal": "Tradie Lunch",
+        "Price": "$20",
+        "Url": "https://barronriverhotel.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Barron River Hotel",
+        "Location": "Stratford",
+        "Day": "Wednesday",
+        "Deal": "Parmi Palooza",
+        "Price": "$22",
+        "Url": "https://barronriverhotel.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Barron River Hotel",
+        "Location": "Stratford",
+        "Day": "Thursday",
+        "Deal": "Tradie Lunch",
+        "Price": "$20",
+        "Url": "https://barronriverhotel.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Barron River Hotel",
+        "Location": "Stratford",
+        "Day": "Thursday",
+        "Deal": "Steak Night",
+        "Price": "$21",
+        "Url": "https://barronriverhotel.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Barron River Hotel",
+        "Location": "Stratford",
         "Day": "Sunday",
         "Deal": "Sunday Roast",
         "Price": "???",
@@ -11,10 +65,55 @@
     {
         "Pub Name": "Cazalys",
         "Location": "Westcourt",
+        "Day": "Friday",
+        "Deal": "Carvery Club",
+        "Price": "$25",
+        "Url": "https://cazalys.com.au/barassis-restaurant/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Cazalys",
+        "Location": "Westcourt",
+        "Day": "Saturday",
+        "Deal": "Carvery Club",
+        "Price": "$25",
+        "Url": "https://cazalys.com.au/barassis-restaurant/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Cazalys",
+        "Location": "Westcourt",
         "Day": "Sunday",
         "Deal": "Carvery Club",
         "Price": "$25",
         "Url": "https://cazalys.com.au/barassis-restaurant/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Dunwoody's",
+        "Location": "Cairns North",
+        "Day": "Monday",
+        "Deal": "Kids Eat Free",
+        "Price": "with purchase of main",
+        "Url": "https://dunwoodys.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Dunwoody's",
+        "Location": "Cairns North",
+        "Day": "Tuesday",
+        "Deal": "Monster Parmi",
+        "Price": "$25",
+        "Url": "https://dunwoodys.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Dunwoody's",
+        "Location": "Cairns North",
+        "Day": "Thursday",
+        "Deal": "Steak Night",
+        "Price": "$23",
+        "Url": "https://dunwoodys.com.au/whats-on/",
         "Last Updated": "2/7/26"
     },
     {
@@ -33,6 +132,483 @@
         "Deal": "Lunch Fish & Chips",
         "Price": "$19",
         "Url": "https://www.crystalbrookcollection.com/flynn/offers/specials",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Flynn",
+        "Location": "City",
+        "Day": "Tuesday",
+        "Deal": "Lunch Any Salad",
+        "Price": "$19",
+        "Url": "https://www.crystalbrookcollection.com/flynn/offers/specials",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Flynn",
+        "Location": "City",
+        "Day": "Wednesday",
+        "Deal": "Lunch Any Burger",
+        "Price": "$19",
+        "Url": "https://www.crystalbrookcollection.com/flynn/offers/specials",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Flynn",
+        "Location": "City",
+        "Day": "Thursday",
+        "Deal": "Lunch Chicken Schnitzel",
+        "Price": "$19",
+        "Url": "https://www.crystalbrookcollection.com/flynn/offers/specials",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Flynn",
+        "Location": "City",
+        "Day": "Sunday",
+        "Deal": "Lunch Kids Eat Free",
+        "Price": "with purchase of any meal",
+        "Url": "https://www.crystalbrookcollection.com/flynn/offers/specials",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Fuller Sports",
+        "Location": "Edmonton",
+        "Day": "Wednesday",
+        "Deal": "Humpday Rump",
+        "Price": "$25",
+        "Url": "https://www.fullersports.com.au/eat-drink/meal-specials/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Fuller Sports",
+        "Location": "Edmonton",
+        "Day": "Friday",
+        "Deal": "Reef & Beef",
+        "Price": "$33.90 or $44.90",
+        "Url": "https://www.fullersports.com.au/eat-drink/meal-specials/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Fuller Sports",
+        "Location": "Edmonton",
+        "Day": "Sunday",
+        "Deal": "3 Course Roast",
+        "Price": "$25",
+        "Url": "https://www.fullersports.com.au/eat-drink/meal-specials/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Mount Sheridan Tavern",
+        "Location": "Mount Sheridan",
+        "Day": "Tuesday",
+        "Deal": "A World Of Parmis",
+        "Price": "$25",
+        "Url": "https://mountsheridantavern.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Mount Sheridan Tavern",
+        "Location": "Mount Sheridan",
+        "Day": "Wednesday",
+        "Deal": "Steak Sizzler",
+        "Price": "$24",
+        "Url": "https://mountsheridantavern.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Mount Sheridan Tavern",
+        "Location": "Mount Sheridan",
+        "Day": "Thursday",
+        "Deal": "Reef & Beef",
+        "Price": "$28",
+        "Url": "https://mountsheridantavern.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Muddy'S Cafe",
+        "Location": "City",
+        "Day": "Tuesday",
+        "Deal": "Tacos From 5Pm",
+        "Price": "$12",
+        "Url": "https://muddyscafe.com/menu/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Muddy'S Cafe",
+        "Location": "City",
+        "Day": "Friday",
+        "Deal": "Fish & Chips From 5Pm",
+        "Price": "$12",
+        "Url": "https://muddyscafe.com/menu/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Oak & Vine",
+        "Location": "City",
+        "Day": "Daily",
+        "Deal": "Daily Lunch Specials",
+        "Price": "$28",
+        "Url": "https://www.oakshotels.com/en/oaks-cairns-hotel/oak-and-vine-restaurant",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "P.J.O'Briens",
+        "Location": "City",
+        "Day": "Daily",
+        "Deal": "All Day Food Specials",
+        "Price": "$15",
+        "Url": "https://www.pjobriens.com.au/cairns/food-drink/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Palm Cove Tavern",
+        "Location": "Palm Cove",
+        "Day": "Monday",
+        "Deal": "Kids Eat Free",
+        "Price": "with purchase of main",
+        "Url": "https://palmcovetavern.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Palm Cove Tavern",
+        "Location": "Palm Cove",
+        "Day": "Tuesday",
+        "Deal": "Project Parma",
+        "Price": "$26",
+        "Url": "https://palmcovetavern.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Palm Cove Tavern",
+        "Location": "Palm Cove",
+        "Day": "Wednesday",
+        "Deal": "Steak Wednesday",
+        "Price": "$23 or $37",
+        "Url": "https://palmcovetavern.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Palm Cove Tavern",
+        "Location": "Palm Cove",
+        "Day": "Sunday",
+        "Deal": "Sunday Roast",
+        "Price": "$28",
+        "Url": "https://palmcovetavern.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Parkview Hotel",
+        "Location": "Gordonvale",
+        "Day": "Monday",
+        "Deal": "Kids Eat Free From 5Pm",
+        "Price": "with purchase of mani",
+        "Url": "https://www.theparkviewhotel.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Parkview Hotel",
+        "Location": "Gordonvale",
+        "Day": "Tuesday",
+        "Deal": "T-Bone Tuesday",
+        "Price": "$26",
+        "Url": "https://www.theparkviewhotel.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Parkview Hotel",
+        "Location": "Gordonvale",
+        "Day": "Wednesday",
+        "Deal": "Parmageddon",
+        "Price": "$26",
+        "Url": "https://www.theparkviewhotel.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Red Beret",
+        "Location": "Redlynch",
+        "Day": "Tuesday",
+        "Deal": "T-Bone Tuesday",
+        "Price": "$26",
+        "Url": "https://theredberet.com.au/dylans-bistro-meal-deals/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Red Beret",
+        "Location": "Redlynch",
+        "Day": "Wednesday",
+        "Deal": "Kids Eat Free",
+        "Price": "with purchase of main",
+        "Url": "https://theredberet.com.au/dylans-bistro-meal-deals/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Red Beret",
+        "Location": "Redlynch",
+        "Day": "Thursday",
+        "Deal": "Parmageddon",
+        "Price": "$27",
+        "Url": "https://theredberet.com.au/dylans-bistro-meal-deals/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Red Beret",
+        "Location": "Redlynch",
+        "Day": "Sunday",
+        "Deal": "$2 Oysters",
+        "Price": "$2",
+        "Url": "https://theredberet.com.au/dylans-bistro-meal-deals/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Souths",
+        "Location": "Bentley Park",
+        "Day": "Friday",
+        "Deal": "Roast Carvery",
+        "Price": "$25",
+        "Url": "https://southcairnssportsclub.com.au/sirens-restaurant/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Souths",
+        "Location": "Bentley Park",
+        "Day": "Saturday",
+        "Deal": "Roast Carvery",
+        "Price": "$25",
+        "Url": "https://southcairnssportsclub.com.au/sirens-restaurant/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Souths",
+        "Location": "Bentley Park",
+        "Day": "Sunday",
+        "Deal": "Roast Carvery",
+        "Price": "$25",
+        "Url": "https://southcairnssportsclub.com.au/sirens-restaurant/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Surf Club Palm Cove",
+        "Location": "Palm Cove",
+        "Day": "Monday",
+        "Deal": "Shank Me Up Mondays",
+        "Price": "$30",
+        "Url": "https://www.surfclubpalmcove.com.au/menu",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Surf Club Palm Cove",
+        "Location": "Palm Cove",
+        "Day": "Tuesday",
+        "Deal": "Fishy Fish Day",
+        "Price": "$22",
+        "Url": "https://www.surfclubpalmcove.com.au/menu",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Surf Club Palm Cove",
+        "Location": "Palm Cove",
+        "Day": "Wednesday",
+        "Deal": "Sizzle A Steak",
+        "Price": "$25",
+        "Url": "https://www.surfclubpalmcove.com.au/menu",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Surf Club Palm Cove",
+        "Location": "Palm Cove",
+        "Day": "Thursday",
+        "Deal": "Top A Snitty",
+        "Price": "$27",
+        "Url": "https://www.surfclubpalmcove.com.au/menu",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Surf Club Palm Cove",
+        "Location": "Palm Cove",
+        "Day": "Friday",
+        "Deal": "Surf Club Burger & Beer",
+        "Price": "$30",
+        "Url": "https://www.surfclubpalmcove.com.au/menu",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Surf Club Palm Cove",
+        "Location": "Palm Cove",
+        "Day": "Saturday",
+        "Deal": "Spindles Pizza Pick",
+        "Price": "$20",
+        "Url": "https://www.surfclubpalmcove.com.au/menu",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Surf Club Palm Cove",
+        "Location": "Palm Cove",
+        "Day": "Sunday",
+        "Deal": "Chefs Sunday Roast",
+        "Price": "$25",
+        "Url": "https://www.surfclubpalmcove.com.au/menu",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "The Cotton Club",
+        "Location": "City",
+        "Day": "Wednesday",
+        "Deal": "Kids Eat Free",
+        "Price": "with main over $25",
+        "Url": "https://thecottonclubcairns.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "The Cotton Club",
+        "Location": "City",
+        "Day": "Sunday",
+        "Deal": "Roast Dinner",
+        "Price": "$28",
+        "Url": "https://thecottonclubcairns.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "The Crown",
+        "Location": "City",
+        "Day": "Monday",
+        "Deal": "Steak Sandwich",
+        "Price": "$20",
+        "Url": "https://www.thecrownhotelcairns.com.au/daily-specials",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "The Crown",
+        "Location": "City",
+        "Day": "Tuesday",
+        "Deal": "T-Bone Tuesday",
+        "Price": "$29",
+        "Url": "https://www.thecrownhotelcairns.com.au/daily-specials",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "The Crown",
+        "Location": "City",
+        "Day": "Wednesday",
+        "Deal": "Fish & Chips",
+        "Price": "$24",
+        "Url": "https://www.thecrownhotelcairns.com.au/daily-specials",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "The Crown",
+        "Location": "City",
+        "Day": "Thursday",
+        "Deal": "Parmi",
+        "Price": "$24",
+        "Url": "https://www.thecrownhotelcairns.com.au/daily-specials",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "The Crown",
+        "Location": "City",
+        "Day": "Friday",
+        "Deal": "Rump Steak, Chips, Salad",
+        "Price": "$25",
+        "Url": "https://www.thecrownhotelcairns.com.au/daily-specials",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "The Crown",
+        "Location": "City",
+        "Day": "Saturday",
+        "Deal": "Burger & Chips",
+        "Price": "$20",
+        "Url": "https://www.thecrownhotelcairns.com.au/daily-specials",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "The Crown",
+        "Location": "City",
+        "Day": "Sunday",
+        "Deal": "Roast Of The Day",
+        "Price": "$25",
+        "Url": "https://www.thecrownhotelcairns.com.au/daily-specials",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Trinity Beach Sports Club",
+        "Location": "Trinity Beach",
+        "Day": "Monday",
+        "Deal": "Kids Eat Free",
+        "Price": "with purchase of main",
+        "Url": "https://trinitybeachsportsclub.com.au/dining-bar/dining/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Trinity Beach Sports Club",
+        "Location": "Trinity Beach",
+        "Day": "Monday",
+        "Deal": "Steak Night",
+        "Price": "$25",
+        "Url": "https://trinitybeachsportsclub.com.au/dining-bar/dining/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Trinity Beach Sports Club",
+        "Location": "Trinity Beach",
+        "Day": "Tuesday",
+        "Deal": "Chefs Gone Mad!",
+        "Price": "???",
+        "Url": "https://trinitybeachsportsclub.com.au/dining-bar/dining/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Trinity Beach Sports Club",
+        "Location": "Trinity Beach",
+        "Day": "Sunday",
+        "Deal": "Sunday Carvery",
+        "Price": "$22",
+        "Url": "https://trinitybeachsportsclub.com.au/dining-bar/dining/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Trinity Beach Tavern",
+        "Location": "Trinity Beach",
+        "Day": "Tuesday",
+        "Deal": "Steak Night",
+        "Price": "$26",
+        "Url": "https://trinitybeachtavern.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Trinity Beach Tavern",
+        "Location": "Trinity Beach",
+        "Day": "Wednesday",
+        "Deal": "Parmageddon",
+        "Price": "$26",
+        "Url": "https://trinitybeachtavern.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Trinity Beach Tavern",
+        "Location": "Trinity Beach",
+        "Day": "Saturday",
+        "Deal": "Seafood Tower For 2",
+        "Price": "$145",
+        "Url": "https://trinitybeachtavern.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Trinity Beach Tavern",
+        "Location": "Trinity Beach",
+        "Day": "Sunday",
+        "Deal": "Chef'S Premium Roast Of The Week",
+        "Price": "$29",
+        "Url": "https://trinitybeachtavern.com.au/whats-on/",
+        "Last Updated": "2/7/26"
+    },
+    {
+        "Pub Name": "Trinity Beach Tavern",
+        "Location": "Trinity Beach",
+        "Day": "Sunday",
+        "Deal": "Seafood Tower For 2",
+        "Price": "$145",
+        "Url": "https://trinitybeachtavern.com.au/whats-on/",
         "Last Updated": "2/7/26"
     }
 ]
