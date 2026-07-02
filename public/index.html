@@ -21,28 +21,32 @@
         .subtitle { color: var(--text-light); margin: 0; font-size: 14px; }
         
         /* Fixed CSS with correct selector and scrolling behavior */
-        .day-picker { 
+      .day-picker { 
             display: flex; 
             gap: 8px; 
             overflow-x: auto; 
+            /* This forces the container to have enough space */
+            width: 100%; 
             padding-bottom: 15px; 
-            padding-right: 20px; /* Prevents cutoff on the last button */
+            padding-right: 40px; /* Added extra buffer for the end */
             margin-bottom: 25px; 
             scrollbar-width: none; 
             -webkit-overflow-scrolling: touch;
+            /* Allow the container to be larger than its parent if needed */
             flex-wrap: nowrap;
-            justify-content: flex-start;
         }
-        
+
         .day-btn { 
             background: var(--card-bg); 
             border: 1px solid var(--border); 
-            padding: 10px 20px; 
-            flex: 0 0 auto; /* Prevents buttons from shrinking */
+            /* Increased horizontal padding to make them "bigger" targets */
+            padding: 12px 24px; 
+            /* Ensure they don't shrink */
+            flex: 0 0 auto; 
             text-align: center;
             border-radius: 20px; 
             font-weight: 600; 
-            font-size: 13px; 
+            font-size: 14px; 
             cursor: pointer; 
             color: var(--text-light); 
             white-space: nowrap; 
